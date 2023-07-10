@@ -1,0 +1,160 @@
+:root {
+
+--background-image: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/bg.png');
+
+--container-text: "Stay Goated";
+
+--home-button-icon: url('https://i.pinimg.com/originals/75/0f/57/750f57aef231b96e3f21f3650ac82008.jpg');
+
+--inbox-bg-img: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/window-xo.png');
+
+/* XO logo in user profile / set it to none if you dont want it */
+--profile-xo-logo: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-profile-bg.png');
+
+/* Jumping GIF */
+--jumping-gif: url('https://raw.githubusercontent.com/4dvyte/XOPichu/main/assets/xo-mini.png');
+
+/* --background-tertiary-alt: url();  */
+--background-tertiary-alt: rgba(177, 177, 177, 0.671);
+
+/* Border-radius for the whole theme */
+--border-radius: 25px;
+
+--bg-blur: 30px;
+--bg-blur-secondary: 0px;
+
+--button: #014d18;
+
+}
+
+.theme-dark {
+
+  /* Text */
+    --text-normal: #f8e1e5;
+    --header-primary: rgb(255, 255, 255);
+    --interactive-normal: #ffffff;
+    --channels-default: #ffffff;
+
+    --text-muted: #ffffff;
+    --interactive-muted: #858585;
+
+    --header-secondary: #858585;
+    --interactive-hover: #a0a0a0;
+    --interactive-active: #e2e2e2;
+
+    /* Background color */
+    --background-primary: #2424247e !important;
+    --background-secondary: #0c0c0c9c !important;
+    --background-secondary-alt: #1414146b !important;
+    --background-tertiary: #1a1a1a96 !important;
+    --background-floating: #131313da !important;
+    --background-accent: #3b3b3ba4 !important;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
+    --background-modifier-active: rgba(17, 12, 12, 0.32) !important;
+    --background-modifier-selected: rgba(31, 21, 21, 0.32) !important;
+    --toast-background: #3d3638d5 !important;
+    --toast-header: #292526da !important;
+    --toast-contents: #252424 !important;
+    --toast-border: #242323d0 !important;
+    --input-background: var(--background-secondary);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --channel-text-area-placeholder: var(--interactive-normal);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+.theme-light {
+
+  /* Text */
+    --text-normal: #000000;
+    --header-primary: #000000;
+    --interactive-normal: #000000;
+    --channels-default: #000000;
+
+    --text-muted: #000000;
+    --interactive-muted: #1b1b1b;
+
+    --header-secondary: #000000;
+    --interactive-hover: #242424;
+    --interactive-active: #141414;
+
+    /* Background color */
+    --background-primary: #d4d4d47e !important;
+    --background-secondary: #a5a5a59c !important;
+    --background-secondary-alt: #8d8d8d6b !important;
+    --background-tertiary: #80808096 !important;
+    --background-floating: #818181da !important;
+    --background-accent: #838383a4 !important;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(141, 153, 143, 0.32) !important;
+    --background-modifier-active: rgba(117, 138, 126, 0.32) !important;
+    --background-modifier-selected: rgba(137, 156, 143, 0.32) !important;
+    --toast-background: #b5c9b3d5 !important;
+    --toast-header: #a8beadda !important;
+    --toast-contents: #bbbbbb !important;
+    --toast-border: #b4b4b4d0 !important;
+    --input-background: var(--background-secondary);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --channel-text-area-placeholder: var(--interactive-normal);
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+:root .bg-1QIAus {
+  background: var(--background-image) center/cover no-repeat !important;
+}
+.container-2ebMPP,.recentMentionsPopout-2bI1ZN {
+  background: var(--inbox-bg-img) center/cover no-repeat !important;
+  backdrop-filter: blur(var(--bg-blur-secondary)) !important;
+}
+.header-145e10.expanded-2H1xJ- {
+  background: none !important;
+  backdrop-filter: blur(var(--bg-blur-secondary));
+}
+.container-ZMc96U.themed-Hp1KC_,
+.scroller-kQBbkU,
+.scroller-18M1mG,
+.form-3gdLxP,
+.peopleColumn-1wMU14,
+.guilds-2JjMmN,
+.userPanelOverlayBackground-3xwDMp
+{
+  backdrop-filter: blur(var(--bg-blur)) !important;
+}
+.container-YkUktl {
+  background: var(--background-accent) !important;
+  backdrop-filter: blur(var(--bg-blur-secondary));
+}
+.auto-2TJ1RH,
+.none-1rXy4P,
+.members-3WRCEx,
+:root .nowPlayingColumn-1eCBCN .scroller-hE2gWq,
+:root .nowPlayingColumn-1eCBCN::after,
+.withFrame-2dL45i {
+  backdrop-filter: blur(var(--bg-blur)) !important;
+}
+.withFrame-2dL45i,
+.themed-Hp1KC_,
+.container-2cd8Mz,
+.inviteToolbar-2k2nqz,
+.members-3WRCEx {
+  background: var(--background-primary) !important;
+}
+.container-1oeRFJ {
+  background: none;
+  border-radius: var(--border-radius) !important;
+}
+/* *:hover {
+  border-radius: var(--border-radius) !important;
+} */
