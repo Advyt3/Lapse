@@ -24,7 +24,7 @@
   --border-radius: 30px;
   
   --bg-blur: 20px;
-  --bg-blur-secondary: 15px;
+  --bg-blur-secondary: 8px;
   
   --button: #014d18;
   
@@ -51,7 +51,7 @@
     --background-secondary-alt: #14141479 !important;
     --background-tertiary: #1a1a1a79 !important;
     --background-floating: #131313ce !important;
-    --background-accent: #1d1d1d !important;
+    --background-accent: #0f0f0f !important;
     --channeltextarea-background: var(--background-secondary);
     --background-modifier-hover: rgba(48, 44, 44, 0.32) !important;
     --background-modifier-active: rgba(17, 12, 12, 0.32) !important;
@@ -131,9 +131,13 @@
 .container__5c7e7,.tree__7a511,.title_b7d661,.chatContainer__23434 {
   backdrop-filter: blur(var(--bg-blur)) !important;
 }
-.sidebar_ded4b5,.scroller__750f5,.titleBar__01af6 {
+.sidebar_ded4b5,.titleBar__01af6,.contentRegion__0bec1,.sidebarRegion__60457 {
   backdrop-filter: blur(var(--bg-blur-secondary));
 }
 .children__32014:after {
   display: none !important;
+}
+.colorStreamerMode_e927c0 {
+  background-color: var(--background-accent) !important;
+  color: var(--white-500);
 }
